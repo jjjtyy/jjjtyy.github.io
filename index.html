@@ -19,11 +19,11 @@
         }
 
         section {
-            max-width: 800px;
-            margin: 0 auto;
+            max-width: 600px; /* 調整最大寬度 */
+            margin: 0 auto; /* 居中 */
         }
 
-        h1, h2 {
+        h1, h2, h3 {
             color: #1766bab5;
         }
 
@@ -34,6 +34,18 @@
 
         .portfolio-item {
             margin-bottom: 20px;
+        }
+
+        .portfolio-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .portfolio-item:hover img {
+            transform: scale(1.05);
         }
 
         footer {
@@ -57,41 +69,44 @@
         <div class="portfolio-item">
             <h3>我的專長</h3>
             <p>我的專長是有關硬體組裝:像是組裝電腦，和網路架設都是我的專長</p>
-            
         </div>
+
         <div class="portfolio-item">
             <h3>我的證照</h3>
             <p>我的證照:
                 網路架設乙級
-
                 網路架設丙級
-
                 工業電子乙級
-
                 工業電子丙級
-
                 希望未來還可以獲得CCNA的證照
             </p>
-            
+        </div>
+
         <div class="portfolio-item">
             <h3>我的興趣</h3>
             <p>我的興趣是打電動跟玩ptcg每次讀書壓力大的時候我都喜歡在電動的世界裡忘記壓力</p>
-            <a href="#" target="_blank">View Project</a>
         </div>
+
         <div class="portfolio-item">
             <h3>我的參賽經驗</h3>
             <p>我的參賽經驗:
-                
                 第22屆桃竹苗技能競賽網路架設分區賽第4名
-
                 希望能參加更多競賽能去看看自己還有哪裡有不足的地方可以加強
             </p>
-            
         </div>
-        
-        
 
-        <!-- Add more portfolio items as needed -->
+        <div class="portfolio-item">
+            <!-- 加入圖片 -->
+            <h3>我在ptcg裡的收藏</h3>
+            <img src="https://raw.githubusercontent.com/jjjtyy/jjjtyy.github.io/main/PTCG1.jpg" alt="photo 1">
+        </div>
+        <div class="portfolio-item">
+            <!-- 加入圖片 -->
+            <h3>我在剛開學拍的照片</h3>
+            <img src="https://raw.githubusercontent.com/jjjtyy/jjjtyy.github.io/main/gg1.jpg" alt="photo 1">
+        </div>
+
+        <!-- 其他作品和內容 -->
 
     </section>
 
